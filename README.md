@@ -22,3 +22,18 @@ schedule-tracker/
 ## Status
 
 🚧 Under active development.
+
+## Local Development
+
+### Prerequisites
+- Docker Desktop running
+- Node.js v20+
+
+### First-time setup
+1. Copy `.env.example` to `.env` and fill in values
+2. Run `docker compose up -d` to start Postgres and Redis
+
+### Daily workflow
+- `docker compose up -d` to start services
+- `docker compose down` to stop services
+- `docker compose logs -f` to view logs
